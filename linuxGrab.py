@@ -5,7 +5,7 @@ import os
 from PIL import Image
 
 # Define ctypes
-LibName = 'prtscn.so'
+LibName = 'linuxGrab.so'
 AbsLibPath = os.path.dirname(os.path.abspath(__file__)) + os.path.sep + LibName
 grab = ctypes.CDLL(AbsLibPath)
 # The root of the

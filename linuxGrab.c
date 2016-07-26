@@ -4,7 +4,7 @@
 #include <X11/X.h>
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
-//Compile: gcc -shared -O3 -fPIC -Wl,-soname,prtscn -o prtscn.so prtscn.c -lX11
+//Compile: gcc -shared -O3 -fPIC -Wl,-soname,linuxGrab -o linuxGrab.so linuxGrab.c -lX11
 
 //-----------------------------------------------------------------------------
 
